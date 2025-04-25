@@ -1,0 +1,40 @@
+.header, .image-container, .btn{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.image-container{
+    opacity: 0;
+}
+
+body{
+    background-color: #7D0A0A;
+}
+
+h1, h2{
+    margin-left: 4vh;
+    margin-top: 40px;
+    font-size: 3vh;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    color: #FBF9FA;
+}
+
+
+#one, #two{
+    padding: 20px;
+    margin: 0.5vh;
+    background-color: black;
+    color: aliceblue;
+    font-size: 2vh;
+    border: 1px solid #7D0A0A
+}
+
+span{
+    color: #a1cdce;
+    font-size: 30px;
+    -webkit-text-stroke: black 1.2px;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+}
+
